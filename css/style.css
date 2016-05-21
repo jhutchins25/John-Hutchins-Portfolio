@@ -1,0 +1,91 @@
+body {
+	background-color: #dbcec6;
+}
+
+.masthead{
+	background-image: url(../images/books.jpe);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 22rem;
+	overflow: auto;
+	border-radius: 1em;
+	border-color: #406055;
+	border-style: solid;
+	margin-bottom: 3em;
+}
+.masthead>h1 {
+	
+	margin-left: 3em;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-size:2em;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-shadow: 4px 1px 0px #000, 2px 3px 18px black;
+	color:white;
+}
+
+@media only screen and (max-width: 600px) {
+    .masthead>h1 {
+        font-size: 1.5em;
+    }
+    .aboutme .text {
+    	font-size: 1em;
+    }
+}
+
+.aboutme .text {
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-bottom: 2em;
+}
+
+hr {
+	background-color: #8A2927;
+	width: 75em;
+}
+
+section, 
+footer {
+	font-family: "Gentium Book Basic";
+	font-size: larger;
+}
+
+.content .projects {
+	display: inline-block;
+	width: 33.3333333%;
+	margin-right:-4px;
+	align-content: center;
+	text-align: center;
+	font-size: larger;
+}
+.projects-intro {
+	text-align: center;
+}
+@media only screen and (max-width: 930px) {
+    .content .projects {
+        display: block;
+    }
+    .projects-intro {
+	text-align: left;
+}
+}
+
+
+
+
+
+
+.content .projects .picture  {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.content-footer .social > li {
+	display: inline-block;
+}
+
+.content-footer {
+	text-align: center;
+}
