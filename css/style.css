@@ -25,6 +25,12 @@ body {
 	color:white;
 }
 
+.aboutme .text {
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-bottom: 2em;
+}
+
 @media only screen and (max-width: 600px) {
     .masthead>h1 {
         font-size: 1.5em;
@@ -34,11 +40,12 @@ body {
     }
 }
 
-.aboutme .text {
-	margin-left: 5em;
-	margin-right: 5em;
-	margin-bottom: 2em;
+@media only screen and (max-width: 400px) {
+    .aboutme .text {
+    	font-size: .75em;
+    }
 }
+
 
 hr {
 	background-color: #8A2927;
@@ -64,15 +71,18 @@ footer {
 }
 @media only screen and (max-width: 930px) {
     .content .projects {
-        display: block;
-    }
-    .projects-intro {
+        margin-right: 10px;
+        width:48%;
+        
+    }    
+}
+
+
+@media only screen and (max-width: 640px) {
+.projects-intro {
 	text-align: left;
+	}
 }
-}
-
-
-
 
 
 
